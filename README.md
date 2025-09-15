@@ -8,7 +8,7 @@ See the references below for more details. If you use this code, please cite:
 
 - `main_dps_dynsystems.m` : Calculates the stability impromevement promoted by an *optimal* parameter perturbation for a wide variety of dynamical systems (see file for the list of systems). The optimal parameter perturbation is calculated via numerical optimization, assuming both constrained (homogeneous) and unconstrained (heterogeneous) formulations.
 
-- `main_dps_networks.m` : Calculates the stability improvement promoted by *random* parameter perturbations over an ensemble of random network models (small-world, Erdos-Renyi, scale-free) as well as real-world network datasets. The adjacency matrix can be readily specified by the user in the code.
+- `main_dps_networks.py` : Calculates the stability improvement promoted by *random* parameter perturbations over an ensemble of random network models (small-world, Erdos-Renyi, scale-free) as well as real-world network datasets. The adjacency matrix can be readily specified by the user in the code.
 
 - `main_dps_ecology.m` : Calculates the stability improvement by *random* perturbations to the network structure on explicit (Lotka-Volterra) and implicit (linear) models.
 

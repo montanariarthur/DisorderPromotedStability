@@ -134,8 +134,10 @@ hold off
 
 %% Phase-amplitude model
 eps = 0.2;
+alpha = 0.7;
+c = 0.3
 L = [-1 1; 1 -1];
-pcenter = 0.8;
+pcenter = 1.5;
 
 datapoints = 500;
 K = linspace(0,0.035,datapoints);
@@ -145,7 +147,7 @@ ArnoldPhaseAmp = zeros(datapoints,datapoints);
 for i = 1:datapoints
     for j = 1:datapoints        
         p = [pcenter + deltaP(j)/2, pcenter - deltaP(j)/2];
-        J = [-K(i)*L-0.3*(diag(p)-1.6333*eye(2)) eye(2); -eps*eye(2), -diag(p)] ;
+        J = [-K(i)*L-c*diag(p)+alpha*eye(2) eye(2); -eps*eye(2), -diag(p)+alpha*eye(2)] ;
         eigJ = eig(J);
         LyapExp(i,j) = max(real(eigJ));
     end

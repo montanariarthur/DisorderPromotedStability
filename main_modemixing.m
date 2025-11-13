@@ -1,5 +1,6 @@
 %% Mode mixing for second-order systems.
 clear all; close all; clc;
+addpath([pwd,'/Models/'])
 
 %% Second-order Kuramoto model
 system = 'power-grid'

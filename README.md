@@ -14,6 +14,8 @@ See the references below for more details. If you use this code, please cite:
 
 - `main_arnoldtongues.m` : Calculates the Arnold tongues (i.e., stability regions) for pairs of coupled oscillators, considering the following models: first-order Kuramoto, first-order leaky integrator, second-order Kuramoto, and phase-amplitude oscillator.
 
+- `main_modemixing.m` : Characterizes the relationship between stability optimization and mode mixing in a small network motif.
+
 # Dependences
 
 - `Model` : This folder contains codes to generate the network structures, calculate the Lyapunov exponents, and numerically find the equilibrium points of dynamical systems.

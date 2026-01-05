@@ -2,7 +2,7 @@
 Code for the analysis of disorder in several second-order dynamical systems, including Kuramoto oscillators, metamaterials, phase-amplitude oscillators, and multi-agent systems.
 
 See the references below for more details. If you use this code, please cite:
-  - AN Montanari, P Zanin, AE Motter. Disorder-promoted stability. (2025)
+  - AN Montanari, P Zanin, AE Motter. Disorder-promoted stability. (2026)
 
 # Usage
 

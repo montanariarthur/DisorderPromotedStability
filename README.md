@@ -1,16 +1,16 @@
 # Disorder-promoted stability in complex systems
-Code for the analysis of disorder in several second-order dynamical systems, including Kuramoto oscillators, metamaterials, phase-amplitude oscillators, and multi-agent systems.
+Code for the analysis of the disorder impact on the stable collective behavior of networked dynamical systems, including Kuramoto oscillators, mechanical metamaterials, phase-amplitude oscillators, multi-agent systems, ecosystems, and more.
 
 See the reference below for more details. If you use this code, please cite:
   - AN Montanari, P Zanin, AE Motter. Disorder-promoted stability. (2026)
 
 # Usage
 
-- `main_dps_dynsystems.m` : Calculates the stability improvement promoted by an *optimal* parameter perturbation relative to the optimal homogeneous parameter assignment. The optimal parameter perturbation is calculated via numerical optimization for a wide variety of dynamical systems (see file for the list of systems), assuming both constrained (homogeneous) and unconstrained (heterogeneous) formulations.
+- `main_dps_dynsystems.m` : Calculates the stability improvement promoted by an *optimal* parameter perturbation relative to the optimal homogeneous parameter assignment. The optimal parameter perturbation is computed via numerical optimization for a wide variety of dynamical systems (see file for the list of systems), assuming both constrained (homogeneous) and unconstrained (heterogeneous) formulations.
 
 - `main_dps_networks.py` : Calculates the stability improvement promoted by *random* parameter perturbations over an ensemble of random network models (small-world, Erdos-Renyi, scale-free) as well as real-world network datasets. The adjacency matrix can be readily specified by the user in the code.
 
-- `main_dps_ecology.m` : Calculates the stability improvement by *random* perturbations to the network structure on explicit (Lotka-Volterra) and implicit (linear) models.
+- `main_dps_ecology.m` : Calculates the stability improvement by *random* perturbations to the network structure on explicit (Lotka-Volterra) and implicit (linear) ecological models.
 
 - `main_arnoldtongues.m` : Plots the Arnold tongues (i.e., stability regions) for pairs of coupled oscillators, considering the following models: first-order Kuramoto, first-order leaky Kuramoto, second-order Kuramoto, and phase-amplitude oscillator.
 

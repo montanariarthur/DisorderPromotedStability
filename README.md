@@ -16,6 +16,8 @@ See the reference below for more details. If you use this code, please cite:
 
 - `main_modemixing.m` : Characterizes the relationship between stability optimization and mode mixing in a small network motif.
 
+- `SM Examples` : This folder contains the codes to run the numerical examples found in the supplementary material, including the Lotka-Volterra network with periodic dynamics, the coupled Rossler oscillators with chaotic dynamics, and the phase-amplitude oscillator network with multistable dynamics.
+
 # Dependences
 
 - `Model` : This folder contains codes to generate the network structures, calculate the Lyapunov exponents, and numerically find the equilibrium points of dynamical systems.

@@ -2,7 +2,7 @@
 Code for the analysis of the disorder impact on the stable collective behavior of networked dynamical systems, including Kuramoto oscillators, mechanical metamaterials, phase-amplitude oscillators, multi-agent systems, ecosystems, and more.
 
 See the reference below for more details. If you use this code, please cite:
-  - AN Montanari, P Zanin, AE Motter. Disorder-promoted stability. *Science* 393, 1241-1249 (2026). DOI: https://doi.org/10.1126/science.aeg3946
+  - AN Montanari, P Zanin, AE Motter. Disorder-promoted stability. *Science* 393, 1241-1249 (2026). https://doi.org/10.1126/science.aeg3946
 
 # Usage
 
